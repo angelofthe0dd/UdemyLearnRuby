@@ -1,0 +1,441 @@
+## SECTION 01: INTRODUCTION AND INSTALLATION ##
+1. Welcome to Ruby
+2. Object-Oriented Programming
+3. Ruby Installation Instructions
+4. macOS - Access and Work with the Terminal
+5. macOS - Install XCode Command Line Tools
+6. macOS - Install Homebrew
+7. macOS - Install rbenv
+8. macOS - Install Ruby
+9. macOS - Install VSCode Text Editor
+10. Windows - Access and Work with PowerShell
+11. Windows - Figure Out if System is 32-bit or 64-bit
+12. Windows - Install Ruby
+13. Windows - Install VSCode Text Editor
+14. Install VSCode Extensions
+15. Add VSCode to Your System PATH
+16. Download Course Materials
+17. Write First Ruby File and Run with Code Runner
+18. Write First Ruby File and Run with Terminal or PowerShell
+19. Interactive Ruby (IRB)
+20. Section Review
+## SECTION 02: GETTING STARTED ##
+21. The puts Method
+22. Escape Characters
+23. The print Method
+24. The p Method
+25. Comments
+26. Multiline Comments
+27. Integers and Floating Point Numbers
+28. Basic Arithmetic in Ruby
+29. String Concatenation
+30. Intro to Exceptions: TypeError
+31. Section Review
+## SECTION 03: VARIABLES ##
+32. VariableS
+33. Declaring Variables
+34. Coding Exercise Solution: Variable Declaration
+35. Exceptions: NameError
+36. Parallel Variable Assignment
+37. Swapping Variable Values
+38. Assignment Shortcuts
+39. Constants
+40. Section Review
+## SECTION 04: OBJECT METHODS ##
+41. Intro to Object Methods
+42. Integer Methods
+43. Coding Exercise Solution: Intro to Object Methods
+44. Exceptions: NoMethodError
+45. Method Chaining
+46. The inspect Method
+47. The nil Object
+48. String Interpolation
+49. The gets Method
+50. The class Method
+51. Methods to Convert Objects
+52. Section Review
+## SECTION 05: BOOLEANS AND PREDICATE METHODS##
+53. Intro to Booleans
+54. The Equality Operator
+55. The Inequality Operator
+56. Mathematical Comparisons
+57. Predicate Methods
+58. Methods with Arguments (include?)
+59. Methods with Multiple Arguments
+60. Arithmetic Methods
+61. Float Methods
+62. Section Review
+## SECTION 06: METHODS ##
+63. Intro to Methods
+64. Parameters and Arguments
+65. Multiple Method Parameters
+66. Manipulating Arguments
+67. Local Variables
+68. Return Values I
+69. Return Values II: Implicit Return Values
+Coding Exercise 4: Methods
+70. Coding Exercise Solution: Methods
+71. Optional Parameters and Default Arguments
+71a. Coding Exercise 5: Optional Parameters and Default Arguments
+72. Coding Exercise Solution: Optional Parameters and Default Arguments
+73. Section Review
+## SECTION 07: BLOCKS ##
+74. Introduction to Blocks with the times Method
+74a. Coding Exercise 6: Intro to Blocks
+75. Coding Exercise Solution: Intro to Blocks
+76. Block Variables
+76a. Coding Exercise 7: Block Variables
+77. Coding Exercise Solution: Block Variables
+78. The upto and downto Methods
+79. The step Method
+80. Section Review
+## SECTION 08: CONDITIONALS ##
+81. The if Statement
+82. Predicate Methods in if Statements
+83. Truthiness and Falsiness
+83a. Coding Exercise 8: if Statements
+84. Coding Exercise Solution: if Statements
+85. if and elsif
+86. if and else
+86a. Coding Exercise 9: if, else and elsif
+87. Coding Exercise Solution: if, else and elsif
+88. Multiple Conditions with And Operator (&&)
+89. Multiple Conditions with Or Operator (||)
+89a. Coding Exercise 10: Multiple Conditions
+90. Coding Exercise Solution: Multiple Conditions
+91. Parentheses Precedence
+92. Nested if Statements
+93. Ternary Operator
+94. Call A Method from Another Method
+95. The case Statement
+96. The unless Keyword
+97. Statement Modifiers
+98. Conditional Assignment Operator
+99. Section Review
+## SECTION 09: STRINGS 1 ##
+100. Single Quotes vs Double Quotes
+101. Multiline Strings
+102. String Comparisons
+103. String Concatenation Options
+104. The length and size Methods
+104a. Coding Exercise 11: Length and Comparison
+105. Coding Exercise Solution: Length and Comparison
+106. Intro to Index Positions
+106a. Coding Exercise 12: Index Positions
+107. Coding Exercise Solution: Index Positions
+108. Extract Multiple Characters from a String
+108a. Coding Exercise 13: String Slicing
+109. Coding Exercise Solution: String Slicing
+110. Overwrite Characters in String
+111. The insert Method
+112. The empty? and nil? Methods
+113. Case Methods
+114. The reverse Method
+115. Bang Methods on Strings
+116. Section Review
+## SECTION 10: LOOPS ##
+117. The while Loop
+118. The until Loop
+119. FizzBuzz Problem
+120. FizzBuzz Solution
+121. The next Keyword
+122. The break keyword
+123. Recursion I
+124. Recursion II
+125. Section Review
+## SECTION 11: DEBUGGING ##
+126. Install debug Gem
+127. The debugger and binding.break Methods
+128. The step Keyword
+129. The info Keyword
+130. Section Review
+## SECTION 12: ARRAYS 1, CREATION AND ACCESS ##
+131. Introduction to Arrays
+132. Nested Arrays
+133. Shorthand %w Syntax to Create An Array of Strings
+133a. Coding Exercise 14: Creating Arrays
+134. Coding Exercise Solution: Creating Arrays
+135. Access and Overwrite Array Element by Index Position
+136. Access Single Array Element with the fetch Method
+136a. Coding Exercise 15: Indexing into Arrays
+137. Coding Exercise Solution: Indexing into Array
+138. Access and Overwrite Multiple Array Elements with Bracket Syntax
+139. Access Multiple Array Elements with the values_at Method
+140. The first and last Methods
+141. The length, size, and count Methods
+141a. Coding Exercise 16: Extracting Multiple Array Elements
+142. Coding Exercise Solution: Extracting Multiple Array Elements
+143. The empty? and nil? Methods
+144. Equality and Inequality Operators with Arrays
+145. The Spaceship Operator
+146. The push Method and Shovel Operator
+147. The insert Method
+148. The pop Method
+149. The shift and unshift Methods
+150. Section Review
+## SECTION 13: RANGES ##
+151. Intro to Ranges
+152. Alphabetical Ranges
+153. The include? and member? Method on Ranges
+154. Random Numbers in Ruby (rand Method)
+155. Extract Multiple Characters or Elements
+156. The case Statement with Ranges
+157. Convert Ranges to Arrays with to_a Method
+158. Section Review
+## SECTION 14: ARRAYS 2, ITERATION AND VARIOUS METHODS ##
+159. The each Method
+160. Filtering with the each Method
+161. each within each
+162. The for Loop
+162a. Coding Exercise 17: each Method
+163. Coding Exercise Solution: The each Method
+164. The each_with_index Method
+164a. Coding Exercise 18: each_with_index
+165. Coding Exercise Solution: each_with_index Method
+166. Iteration over Array with while or until Loops
+167. The map and collect Methods
+168. The select and reject Methods
+169. The partition Method
+169a. Coding Exercise 19: Filtering Methods
+170. Coding Exercise Solution: Filtering Methods
+171. The any? and all? Methods
+171a. Coding Exercise 20: The any? and all? Methods
+172. Coding Exercise Solution: The any? and all? Methods
+173. The find and detect Mthods
+174. The index and find_index Methods
+175. The include? Method
+176. The max and min Methods
+176a. Coding Exercise 21: Custom Max
+177. Coding Exercise Solution: Custom Max
+178. Unlimited Method Arguments/Splat Argument
+178a. Coding Exercise 22: Unlimited Method Arguments
+179. Coding Exercise Solution: Unlimited Method Arguments
+180. Section Review
+## SECTION 15: STRINGS 2 ##
+181. The split Method on a String
+181a. Coding Exercise 23: The split Method
+182. Coding Exercise Solution: The split Method
+183. The chars and each_char Methods
+183a. Coding Exercise 24: Custom Split
+184. Coding Exercise Solution: Custom Split
+185. The join Method on an Array
+185a. Coding Exercise 25: Custom Join
+186. Coding Exercise Solution: Custom Join
+187. The count Method on a String
+187a. Coding Exercise 26: Custom Count
+188. Coding Exercise Solution: Custom Count
+189. The index and rindex Methods
+189a. Coding Exercise 27: Custom Index
+190. Coding Exercise Solution: Custom Index
+191. The delete Method
+191a. Coding Exercise 28: Custom Delete
+192. Coding Exercise Solution: Custom Delete
+193. Section Review
+## SECTION 16: OBJECT REFERENCE COPIES ##
+194. Object References
+195. The dup and clone Methods
+196. The freeze Method
+197. Passing Objects to Mutating Methods
+## SECTION 17: HASHES 1 ##
+198. Intro to Hashes
+199. Populate Hash and Extract Values from Keys
+200. Intro to Symbols
+201. Symbols as Hash Keys
+202. Ruby 3.1 Shorthand Hash Syntax
+203. Add a New Key-Value Pair to Hash
+203a. Coding Exercise 29: Creating a Hash
+204. Coding Exercise Solution: Creating a Hash
+205. Iterating over a Hash
+206. Check for Inclusion in a Hash
+207. The select and reject Methods on a Hash
+208. Convert Hash to Array and Vice Versa
+209. The delete Method
+210. The merge Method
+211. Create Hash with Default Value (Hash.new)
+211a. Coding Exercise 30: Word Frequency
+212. Coding Exercise Solution: Word Frequency
+213. Reference Problems with Hash.new
+214. Section Review
+## SECTION 18: ARRAYS 3, BONUS METHODS ##
+215. The reverse Method
+216. The sort Method
+217. The uniq Method
+218. The compact Method
+219. The inject and reduce Methods
+220. The flatten Method
+221. The sample Method
+222. Multiply an Array with an Asterisk
+223. Merge Arrays and Exclude Duplicates
+224. Remove Array Items that Exist in Another Array
+225. Array Intersection with the Ampersand Symbol
+226. Section Review
+## SECTION 19: BLOCKS, PROCS, AND LAMBDAS ##
+227. Review of Blocks
+228. The yield Keyword
+229. Block Return Values
+230. The block_given? Method
+231. Block Parameters
+232. A Custom each Method
+232a. Coding Exercise 31: Custom Map Method
+233. Coding Exercise Solution: Custom Map Method
+234. Procs
+235. More Proc Examples
+236. Methods with Proc Parameters
+237. Intro to Lambdas
+238. Differences between Lambdas and Procs
+239. Section Review
+## SECTION 20: CLASSES 1, THE BASICS ##
+240. Intro to Classes
+241. Create a Class
+241a. Coding Exercise 32: Create a Class
+242. Coding Exercise Solution: Create a Class
+243. The new Method on Ruby’s Native Objects
+244. Instance Variables and the initialize Method
+244a. Coding Exercise 33: Declare Instance Variables
+245. Coding Exercise Solution: Declare Instance Variables
+246. Instance Methods
+246a. Coding Exercise 34: Instance Methods
+247. Coding Exercise Solution: Instance Methods
+248. Override the to_s Method
+248a. Coding Exercise 35: The to_s Method
+249. Coding Exercise Solution: The to_s Method
+250. The self Keyword
+251. Omitting the self Keyword
+252. Getter Methods (Read Methods)
+252a. Coding Exercise 36: Getter Methods
+253. Coding Exercise Solution: Getter Methods
+254. Setter Methods (Write Methods)
+254a. Coding Exercise 37: Setter Methods
+255. Coding Exercise Solution: Setter Methods
+256. The attr_reader and attr_writer Methods
+257. The attr_accessor Method
+258. Add Parameters to initialize Method
+258a. Coding Exercise 38: Add Parameters to initialize Method
+259. Coding Exercise Solution: Add Parameters to Initialize Method
+260. Section Review
+## SECTION 21: CLASSES 2 ##
+261. Private Methods
+262. Protected Methods
+263. Add Validation to Setter Methods
+263a. Coding Exercise 39: Add Validation to Setter Methods
+264. Coding Exercise Solution: Add Validation to Setter Methods
+265. Derived Values
+266. Class Methods
+267. Alternative Class Method Syntax
+268. Class Variables
+268a. Coding Exercise 40: Class Methods and Class Variables
+269. Coding Exercise Solution: Class Methods and Class Variables
+270. Building a Class Over Time
+271. Monkey Patching
+271a. Coding Exercise 41: Monkey Patching
+272. Coding Exercise Solution: Monkey Patching
+273. Section Review [SLIDES]
+## SECTION 22: KEYWORD ARGUMENTS ##
+274. Hash as initialize Argument
+275. Required Keyword Arguments
+276. Optional Keyword Arguments
+277. Positional Arguments and Keyword Arguments
+278. New Version of Candidate Class with Keyword Arguments
+278a. Coding Exercise 42: Keyword Arguments
+279. Coding Exercise Solution: Keyword Arguments
+280. Section Review
+## SECTION 23: CLASSES 3, INHERITANCE ##
+281. Intro to Inheritance
+282. Create Subclasses
+283. The superclass and ancestors Class Methods
+284. Check Inheritance Hierarchy of our Subclasses
+285. The is_a? and instance_of? Methods
+286. The methods Method
+287. Exclusive Instance Methods in Subclasses
+288. Override Methods in a Subclass
+289. The super Keyword I
+290. The super Keyword II
+291. Defining Equality
+292. Duck Typing
+293. Section Review
+## SECTION 24: INPUT AND OUTPUT ##
+294. Read from a Text File
+295. Write to a Text File
+296. Rename and Delete a File
+297. Command Line Arguments (ARGV)
+298. Load A Ruby File with load Method
+299. The require and require_relative Methods
+300. Section Review [SLIDES]
+## SECTION 25: MODULES AND MIXINS ##
+301. Intro to Modules
+302. Modules with Identical Methods
+303. Import Modules into the Current File
+304. The Math Module
+305. The uri and net/http Modules
+306. The Enumerable Mixin
+307. The Comparable Mixin
+308. Mixing in Our Own Module
+309. The ancestors Method in Depth
+310. The prepend Keyword
+311. The extend Keyword
+312. Mixing in Multiple Modules
+313. Multiple Declarations for the Same Module
+314. Modules within Modules
+315. Section Review [SLIDES]
+315a.Quiz 10: Modules and Mixins
+Quiz 11: Modules and Mixins
+## SECTION 26: SETS ##
+316. Intro to Sets
+317. Add and Delete Items from Set
+318. Explore set.rb on GitHub
+318a. Coding Exercise 43: Sets
+319. Coding Exercise Solution: Sets
+320. Section Review [SLIDES]
+3min
+## SECTION 27: DATETIMES ##
+321. The Date Object
+322. The Time Object
+323. Add or Subtract Time
+324. The Comparable Methods on a Time Object
+325. Convert Time Object to Formatted String
+326. The parse and strptime Methods
+326a. Coding Exercise 44: Datetimes
+327. Coding Exercise Solution: Datetimes
+328. Section Review [SLIDES]
+## SECTION 28: REGULAR EXPRESSIONS ##
+329. Intro to Regular Expressions
+330. The scan Method
+331. The Digit Symbol
+332. The Wildcard Symbol
+333. Anchors
+334. Exclude Characters
+335. The sub and gsub Methods with Regular Expressions
+336. Rubular.com
+336a. Coding Exercise 45: Regular Expressions
+337. Coding Exercise Solution: Regular Expressions
+338. Section Review [SLIDES]
+## SECTION 29: EXCEPTIONS ##
+339. The begin and rescue Keywords
+340. Catching Error Object
+341. The retry Keyword
+342. The ensure Keyword
+343. Using begin and rescue at Top Level
+344. The raise Keyword
+345. Custom Exceptions
+345a. Coding Exercise 46: Exceptions
+346. Coding Exercise Solution: Exceptions
+347. Section Review [SLIDES]
+## SECTION 30: TESTING WITH MINITEST ##
+348. Intro to Testing
+349. Testing a Class
+350. The setup and teardown Methods
+351. Assert Inclusion
+352. Assert Error was Raised
+353. Final Argument to Assertion Methods
+354. Section Review [SLIDES]
+## SECTION 31: READING AND WRITING DOCUMENTATION ##
+355. Reading Documentation
+356. Install rdoc
+357. Use RDoc to Generate Documentation
+Quiz 17: Reading and Writing Documentation
+## SECTION 32: GEMS ##
+358. Intro to Ruby Gems
+359. Updating Gem Program
+360. Installing Faker Gem
+361. Use Faker Gem
+361a. Quiz 18: Gems
