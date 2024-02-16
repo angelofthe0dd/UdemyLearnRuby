@@ -5,3 +5,5 @@ puts "Let's create a variable called 'name' and assign it 'Jim'."
 puts "Also we'll create a variable called 'age' and assign it '53'."
 name = "Jim"
 age = 53
+puts "My name is: " + name
+puts "My name is: " + age
